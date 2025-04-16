@@ -1,11 +1,11 @@
-import Counter from "./pages/counter"
+import CounterToolkit from "./pages/counter.toolkit"
 
 
 function App() {
 
   return (
     <>
-      <Counter />
+      <CounterToolkit />
     </>
   )
 }
