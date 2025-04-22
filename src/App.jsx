@@ -1,11 +1,11 @@
-import CounterToolkit from "./pages/counter.toolkit"
+import TodoApp from "./pages/TodoApp"
 
 
 function App() {
 
   return (
     <>
-      <CounterToolkit />
+      <TodoApp />
     </>
   )
 }
