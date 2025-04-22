@@ -1,3 +1,4 @@
+import Cart from "./pages/cart"
 import Theme from "./pages/Theme"
 
 
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Theme />
+      <Cart />
     </>
   )
 }

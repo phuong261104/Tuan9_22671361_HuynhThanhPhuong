@@ -1,12 +1,34 @@
-# React + Vite
+🧩 1. Counter App (Đếm số đơn giản)
+Tạo một state đếm (count)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Thêm 2 nút: Tăng và Giảm
 
-Currently, two official plugins are available:
+Sử dụng createSlice để tạo các action: increment, decrement
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📋 2. To-do List
+State là danh sách các công việc (todos)
 
-## Expanding the ESLint configuration
+Action: addTodo, toggleTodo, removeTodo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hiển thị danh sách và thêm/xoá công việc
+
+🔁 3. Toggle Theme (Dark/Light mode)
+State: theme (light / dark)
+
+Action: toggleTheme
+
+Áp dụng theme cho giao diện bằng CSS class hoặc style
+
+📦 4. Giỏ hàng (Shopping Cart)
+State: cartItems (mảng sản phẩm)
+
+Action: addItem, removeItem, updateQuantity
+
+Tính tổng số lượng và tổng tiền
+
+🎯 5. Quản lý user đăng nhập (Auth)
+State: user, isLoggedIn
+
+Action: login, logout, setUserInfo
+
+Hiển thị giao diện đăng nhập / chào mừng người dùng sau khi đăng nhập

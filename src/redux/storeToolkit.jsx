@@ -1,6 +1,7 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 import todoReducer from "./todo/todo.slice";
 import themeReducer from "./theme/theme.slice";
+import cartReducer from "./cart/cart.slice";
 
 export const counterSlice = createSlice({
     name: 'counter',
@@ -17,6 +18,7 @@ export const store = configureStore({
     reducer: {
         counter: counterSlice.reducer,
         todo: todoReducer,
-        theme: themeReducer
+        theme: themeReducer,
+        cart: cartReducer
     }
 });

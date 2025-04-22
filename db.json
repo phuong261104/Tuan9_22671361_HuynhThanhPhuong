@@ -15,5 +15,19 @@
       "text": "Build a Todo App",
       "completed": false
     }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "name": "Macbook Air M2",
+      "price": 999,
+      "quantity": 6
+    },
+    {
+      "id": "d8b1",
+      "name": "Phuong",
+      "price": 10000000,
+      "quantity": 3
+    }
   ]
 }
