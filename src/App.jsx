@@ -1,11 +1,11 @@
-import TodoApp from "./pages/TodoApp"
+import Theme from "./pages/Theme"
 
 
 function App() {
 
   return (
     <>
-      <TodoApp />
+      <Theme />
     </>
   )
 }
